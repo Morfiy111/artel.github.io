@@ -107,7 +107,6 @@ button.btn-close {
     background-attachment: scroll;
     background-size: cover;
     position: relative;
-    margin-bottom: 60px;
     background-position: center;
 }
 
@@ -143,6 +142,31 @@ button.btn-close {
 .navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 1);
     border-bottom: 1px solid #fff;
+}
+
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chevron-background {
+    font-size: 55px;
+    color: #fff;
 }
 
 .icon-header-time i {
