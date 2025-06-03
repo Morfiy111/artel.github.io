@@ -97,6 +97,10 @@ button.btn-close {
     color: #fff;
 }
 
+.header-contacts-row a:hover {
+    border-color: #fff;
+}
+
 .header-block-page {
     background-image: url("../images/back.jpg");
     background-repeat: no-repeat;
@@ -223,6 +227,18 @@ button.btn-close {
 
 .footer-politics a:hover {
     border-color: #fff;
+}
+
+.basket-block {
+    text-align: center;
+}
+
+.basket-icon i {
+    font-size: 32px;
+}
+
+.header-adress {
+    width: 292px;
 }
 
 @media (min-width: 768px) {
