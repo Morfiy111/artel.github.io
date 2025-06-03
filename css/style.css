@@ -175,7 +175,7 @@ button.btn-close {
 }
 
 .footer-page {
-    background-color: #0069A3;
+    background-color: #472b1c;
     padding: 40px 0;
 }
 
@@ -188,6 +188,7 @@ button.btn-close {
 
 .footer-flex-block a {
     color: #fff;
+    display: block;
 }
 
 .footer-info {
@@ -214,6 +215,33 @@ button.btn-close {
 
 .footer-copyright {
     font-size: 12px;
+}
+
+.footer-links a {
+    display: block;
+}
+
+.footer-links a:hover,
+.footer-address-item a:hover {
+    border-color: #fff;
+}
+
+.social-block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-block a:hover {
+    border-color: #fff;
+}
+
+.social-block i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.footer-address {
+    text-align: right;
 }
 
 #button-up {
