@@ -134,6 +134,10 @@ button.btn-close {
     display: block;
 }
 
+.header-logo img {
+    width: 190px;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 1);
 }
