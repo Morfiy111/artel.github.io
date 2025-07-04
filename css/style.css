@@ -362,7 +362,7 @@ button.btn-close {
     width: 47%;
 }
 
-.about-us-main-text h3 {
+.about-us-main-text h4 {
     margin-bottom: 30px;
 }
 
@@ -391,6 +391,52 @@ button.btn-close {
 .page-btn:hover {
     background-color: #2F4558;
     color: #fff;
+}
+
+.owl-item-block {
+    position: relative;
+}
+
+.banner-quote-block {
+    position: absolute;
+    top: 70px;
+    right: 180px;
+    width: 506px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.location-item {
+    margin-bottom: 20px;
+}
+
+.phones-main-flex {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.location-main-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.percent-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.percent-block i {
+    margin-right: 20px;
+    font-size: 70px;
+}
+
+.percent-block span {
+    font-size: 28px;
 }
 
 @media (min-width: 768px) {
@@ -449,6 +495,15 @@ button.btn-close {
 
     .basket-block {
         margin-left: auto;
+    }
+
+    .about-us-main {
+        flex-direction: column-reverse;
+    }
+
+    .about-us-main-img,
+    .about-us-main-text {
+        width: 100%;
     }
 }
 
@@ -524,14 +579,6 @@ button.btn-close {
         width: 48%;
     }
 
-    .about-us-main {
-        flex-direction: column-reverse;
-    }
-
-    .about-us-main-img,
-    .about-us-main-text {
-        width: 100%;
-    }
 
     .contact-block {
         position: inherit;
@@ -552,6 +599,24 @@ button.btn-close {
         margin-right: 20px;
     }
 
+    .banner-quote-block {
+        top: 20px;
+        right: 80px;
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .location-main-flex {
+        display: none;
+    }
+
+    .percent-block span {
+        font-size: 18px;
+    }
 }
 
-@media (max-width: 500px) {}
+@media (max-width: 500px) {
+    .banner-quote-block {
+        display: none;
+    }
+}
