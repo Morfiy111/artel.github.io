@@ -439,6 +439,22 @@ button.btn-close {
     font-size: 28px;
 }
 
+.main-photo-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.main-photo-item img {
+    width: 100%;
+}
+
+.main-photo-item {
+    width: 24%;
+    margin-bottom: 20px;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
         justify-content: space-around;
@@ -612,6 +628,11 @@ button.btn-close {
 
     .percent-block span {
         font-size: 18px;
+    }
+
+    .main-photo-item {
+        width: 48%;
+        margin-bottom: 20px;
     }
 }
 
