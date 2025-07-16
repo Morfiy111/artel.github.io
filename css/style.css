@@ -1,18 +1,15 @@
 @font-face {
-    font-family: 'Montserrat';
-    src: url('../webfonts/Montserrat-Regular.ttf'),
-        url('../webfonts/Montserrat-Bold.ttf'),
-        url('../webfonts/Montserrat-Italic.ttf');
+    font-family: 'tenorsans';
+    src: url('../webfonts/TenorSans-Regular.ttf'),
 }
 
 @font-face {
-    font-family: 'mplus1p';
-    src: url('../webfonts/MPLUS1p-Regular.ttf'),
-        url('../webfonts/MPLUS1p-Bold.ttf');
+    font-family: 'futurabook';
+    src: url('../webfonts/futurabookc.ttf'),
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'futurabook', sans-serif;
     font-size: 18px;
     color: #2F4558;
 }
@@ -42,7 +39,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'mplus1p', sans-serif;
+    font-family: 'tenorsans', sans-serif;
     font-weight: bold;
 }
 
@@ -83,7 +80,7 @@ button.btn-close {
 }
 
 .registration__agree a {
-    color: #9AC31B;
+    border-bottom: 1px solid #2F4558;
 }
 
 .registration__agree {
@@ -412,6 +409,7 @@ button.btn-close {
 
 .location-item {
     margin-bottom: 20px;
+    width: 32%;
 }
 
 .phones-main-flex {
@@ -448,14 +446,6 @@ button.btn-close {
     margin-bottom: 60px;
 }
 
-.main-photo-item img {
-    width: 100%;
-}
-
-.main-photo-item {
-    width: 24%;
-    margin-bottom: 20px;
-}
 
 .btn-main-item {
     color: #40281b;
@@ -474,6 +464,44 @@ button.btn-close {
 
 .text-center {
     margin-bottom: 60px;
+}
+
+.cookie {
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    padding: 20px 0;
+    display: none;
+}
+
+.cookie__text {
+    color: #fff;
+}
+
+.cookie.is-active {
+    display: block;
+}
+
+.btn-main-white {
+    color: #fff;
+    border-color: #fff;
+    margin-top: 10px;
+}
+
+.btn-main-white:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.text-center-small {
+    margin-bottom: 0;
+}
+
+.footer-copyright span {
+    display: block;
 }
 
 @media (min-width: 768px) {
@@ -541,6 +569,15 @@ button.btn-close {
     .about-us-main-img,
     .about-us-main-text {
         width: 100%;
+    }
+
+    .location-main-flex {
+        flex-wrap: wrap;
+    }
+
+    .location-item {
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
 
@@ -643,17 +680,12 @@ button.btn-close {
         font-size: 12px;
     }
 
-    .location-main-flex {
-        display: none;
-    }
-
     .percent-block span {
         font-size: 18px;
     }
 
-    .main-photo-item {
-        width: 48%;
-        margin-bottom: 20px;
+    .mobile-adress-none {
+        display: none;
     }
 }
 
