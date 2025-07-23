@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Бургерная Артель</title>
+</head>
+
+<body>
+    <div class="header-block-page">
+        <div class="header-overlay"></div>
+        <div class="container">
+            <header class="header-page">
+
+                <div class="header-row-top">
+                    <div class="header-contacts-row">
+                        <div class="header-logo">
+                            <a href="/">
+                                <img src="images/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="header-adress">
+                            <span><i class="fas fa-map-marker-alt"></i> Курск, улица 2-я Новоселовка, 64А</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Курск, пикник-парк Новая Боевка (с
+                                мая по сентябрь)
+                            </span>
+                        </div>
+                        <!--<div class="header-time">
+                            <div class="icon-header-time"><i class="far fa-clock"></i></div>
+                            <div class="header-chedule">
+                                <span>10:30-23:30 пн-чт</span>
+                                <span>11:00-23:00 пт-вс</span>
+                            </div>
+                        </div>-->
+                        <div class="header-phones">
+                            <!--<div class="header-time-mobile">
+                                <div class="icon-header-time"><i class="far fa-clock"></i></div>
+                                <div class="header-chedule">
+                                    <span>10:30-23:30 пн-чт</span>
+                                    <span>11:00-23:00 пт-вс</span>
+                                </div>
+                            </div>-->
+                            <a href="tel:+79606783473"><i class='fas fa-mobile-alt'></i>
+                                +7 (960) 678-34-73</a>
+                            <a href="tel:+74712360301"><i class='fas fa-phone'></i>
+                                +7 (4712) 360-301</a>
+                        </div>
+                        <div class="basket-block">
+                            <a href="#">
+                                <div class="basket-icon">
+                                    <div class="header-cart-number">3</div>
+                                    <i class='fas fa-shopping-basket'></i>
+                                </div>
+                                <div class="basket-text">
+                                    Сумма: 500 <i class='fa fa-ruble'></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar navbar-expand-md navbar-dark" aria-label="Fourth navbar example">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Контакты и доставка</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Бургеры</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Основное меню</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Салаты</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Паста</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Напитки</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="modal-body">
+                                <div class="owl-feedback-form js-send-form">
+                                    <h3>Заполните и отправьте заявку!</h3>
+                                    <input type="text" name="name" placeholder="Ваше имя">
+                                    <input type="text" name="phone" placeholder="Телефон">
+                                    <input type="text" name="email" placeholder="email">
+                                    <input type="text" name="service" placeholder="Ваш заказ">
+                                    <textarea rows="5" name="comment" placeholder="Описание заказа"></textarea>
+                                    <div class="btn-block-center">
+                                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                            class="page-btn">Отправить
+                                            заявку</button>
+                                        <p class="registration__agree">
+                                            Нажимая
+                                            кнопку
+                                            «Отправить заявку»
+                                            вы соглашаетесь с <a href="#">политикой
+                                                конфиденциальности</a>.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+    <section class="container">
+        <h1 class="main-title main-page-title-red">Бургеры</h1>
+        <div class="categories-block">
+            <div class="categories-item">
+                <div class="categories-item-info">
+                    <div class="categories-item-img">
+                        <a href="#"><img alt="" src="images/goods1.jpg"></a>
+                    </div>
+                    <div class="categories-item-name">
+                        <a href="#">Гамбургер, 185 г</a>
+                    </div>
+                    <div class="categories-item-desk">
+                        Булочка белая, котлета свино-говяжья, огурец маринованный, лук маринованный, салат, соус
+                        фирменный BBQ, соус коктейльный с трюфельным маслом
+                    </div>
+                </div>
+                <div class="price-btn-flex">
+                    <div class="categories-button">
+                        <a href="#" class="btn-main-item" target="_blank">В корзину</a>
+                    </div>
+                    <div class="categories-item-price">
+                        295 <i class="fa fa-rub" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="categories-item">
+                <div class="categories-item-info">
+                    <div class="categories-item-img">
+                        <a href="#"><img alt="" src="images/goods2.jpg"></a>
+                    </div>
+                    <div class="categories-item-name">
+                        <a href="#">Чизбургер, 200 г</a>
+                    </div>
+                    <div class="categories-item-desk">
+                        Булочка белая, котлета свино-говяжья, сыр Чеддер, огурец маринованный, лук маринованный, салат,
+                        соус
+                        фирменный BBQ, соус коктейльный с трюфельным маслом
+                    </div>
+                </div>
+                <div class="price-btn-flex">
+                    <div class="categories-button">
+                        <a href="#" class="btn-main-item" target="_blank">В корзину</a>
+                    </div>
+                    <div class="categories-item-price">
+                        295 <i class="fa fa-rub" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="categories-item">
+                <div class="categories-item-info">
+                    <div class="categories-item-img">
+                        <a href="#"><img alt="" src="images/goods3.jpg"></a>
+                    </div>
+                    <div class="categories-item-name">
+                        <a href="#">Бургер "Коул-Слоу", 320 г</a>
+                    </div>
+                    <div class="categories-item-desk">
+                        Булочка белая, котлета свиная, бекон, сыр Чеддер, огурец маринованный, салат коул-слоу, соус
+                        фирменный BBQ, соус гриль
+                    </div>
+                </div>
+                <div class="price-btn-flex">
+                    <div class="categories-button">
+                        <a href="#" class="btn-main-item" target="_blank">В корзину</a>
+                    </div>
+                    <div class="categories-item-price">
+                        450 <i class="fa fa-rub" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="categories-item">
+                <div class="categories-item-info">
+                    <div class="categories-item-img">
+                        <a href="#"><img alt="" src="images/goods4.jpg"></a>
+                    </div>
+                    <div class="categories-item-name">
+                        <a href="#">Бургер "Ко-Ко", 280 г</a>
+                    </div>
+                    <div class="categories-item-desk">
+                        Булочка белая, котлета куриная, ананас на гриле, огурец маринованный, бекон, сыр Фета, соус
+                        карри, соус сырный
+                    </div>
+                </div>
+                <div class="price-btn-flex">
+                    <div class="categories-button">
+                        <a href="#" class="btn-main-item" target="_blank">В корзину</a>
+                    </div>
+                    <div class="categories-item-price">
+                        530 <i class="fa fa-rub" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="categories-item">
+                <div class="categories-item-info">
+                    <div class="categories-item-img">
+                        <a href="#"><img alt="" src="images/goods5.jpg"></a>
+                    </div>
+                    <div class="categories-item-name">
+                        <a href="#">Бургер "Курский Бычок", 310 г</a>
+                    </div>
+                    <div class="categories-item-desk">
+                        Белая булочка, котлета из мраморной говядины, сыр Чеддер, помидор свежий, огурец свежий, салат,
+                        соус фирменный BBQ, соус гриль
+                    </div>
+                </div>
+                <div class="price-btn-flex">
+                    <div class="categories-button">
+                        <a href="#" class="btn-main-item" target="_blank">В корзину</a>
+                    </div>
+                    <div class="categories-item-price">
+                        530 <i class="fa fa-rub" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="categories-item">
+                <div class="categories-item-info">
+                    <div class="categories-item-img">
+                        <a href="#"><img alt="" src="images/goods6.jpg"></a>
+                    </div>
+                    <div class="categories-item-name">
+                        <a href="#">Бургер "Бурый Медведь", 380 г</a>
+                    </div>
+                    <div class="categories-item-desk">
+                        Булочка черная, котлета из мраморной говядины, сыр Чеддер, салат, перец болгарский, огурец
+                        свежий, помидор свежий, огурец маринованный, бекон, соус фирменный BBQ, соус сырный, соус
+                        кунжутный
+                    </div>
+                </div>
+                <div class="price-btn-flex">
+                    <div class="categories-button">
+                        <a href="#" class="btn-main-item" target="_blank">В корзину</a>
+                    </div>
+                    <div class="categories-item-price">
+                        670 <i class="fa fa-rub" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-page">
+        <div class="container">
+            <div class="footer-flex-block">
+                <div class="header-logo">
+                    <a href="/">
+                        <img src="images/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Бургеры</a>
+                    <a href="#">Основное меню</a>
+                    <a href="#">Салаты</a>
+                    <a href="#">Паста</a>
+                    <a href="#">Напитки</a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">О нас</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="footer-address">
+                    <div class="footer-address-item">
+                        <a href="tel:+79606783473"><i class='fas fa-mobile-alt'></i>
+                            +7 (960) 678-34-73</a>
+                        <a href="tel:+74712360301"><i class='fas fa-phone'></i>
+                            +7 (4712) 360-301</a>
+                    </div>
+                    <div class="footer-address-item social-block">
+                        <a href="https://vk.com/artelburgers46" target="_blank" title="Мы ВКонтакте">
+                            <i class="fa-brands fa-vk"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <span><a href="#">Политика конфиденциальности</a>, <a href="#">соглашение об использовании
+                        сайта</a></span>
+                Разработано <a href="https://tetris-studio.ru" target="_blank">Tetris Studio</a>
+            </div>
+        </div>
+    </footer>
+    <div id="button-up" title="Вверх!">
+        <span></span>
+    </div>
+    <section class="cookie is-active">
+        <div class="container">
+            <div class="cookie__content">
+                <p class="cookie__text">Этот сайт использует файлы cookie для хранения данных. Продолжая использовать
+                    сайт, вы даёте свое согласие на работу с этими файлами.</p>
+                <div class="text-center text-center-small"><button class="btn-main-item btn-main-white">окей</button>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

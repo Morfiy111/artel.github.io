@@ -190,7 +190,7 @@ button.btn-close {
 
 .categories-item {
     width: 32%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .categories-item img {
@@ -205,12 +205,8 @@ button.btn-close {
 }
 
 .main-title {
-    margin-bottom: 60px;
+    margin: 60px 0;
     text-align: center;
-}
-
-.owl-carousel {
-    margin-bottom: 60px;
 }
 
 .footer-page {
@@ -502,6 +498,28 @@ button.btn-close {
 
 .footer-copyright span {
     display: block;
+}
+
+.categories-item-price {
+    text-align: right;
+    font-weight: bold;
+}
+
+.price-btn-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.price-btn-flex .btn-main-item {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.categories-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media (min-width: 768px) {
