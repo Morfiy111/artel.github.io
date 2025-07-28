@@ -70,6 +70,9 @@ if (window.matchMedia("(max-width: 991px)").matches) {
 if (window.matchMedia("(max-width: 767px)").matches) {
     itemsCount = 2;
 }
+if (window.matchMedia("(max-width: 500px)").matches) {
+    itemsCount = 1;
+}
 var owl = $('.more-carousel');
 owl.owlCarousel({
     items: itemsCount,
