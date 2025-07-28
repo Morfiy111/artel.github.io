@@ -581,6 +581,26 @@ button.btn-close {
     justify-content: space-between;
 }
 
+.more-carousel-img img {
+    width: 100%;
+}
+
+.more-carousel-title {
+    margin-top: 20px;
+}
+
+.more-carousel-price {
+    margin: 10px 0 20px 0;
+}
+
+.more-carousel-btn {
+    margin-bottom: 40px;
+}
+
+.more-carousel {
+    margin-bottom: 40px;
+}
+
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
         justify-content: space-around;
