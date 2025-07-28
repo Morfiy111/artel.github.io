@@ -503,12 +503,14 @@ button.btn-close {
 .categories-item-price {
     text-align: right;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .price-btn-flex {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .price-btn-flex .btn-main-item {
@@ -521,6 +523,8 @@ button.btn-close {
     flex-direction: column;
     justify-content: space-between;
 }
+
+
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav {
@@ -562,6 +566,20 @@ button.btn-close {
     .contact-block {
         left: 40px;
     }
+
+    .categories-button {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .categories-item-price {
+        width: 100%;
+    }
+
+    .categories-button {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 @media(max-width: 991px) {
@@ -596,6 +614,10 @@ button.btn-close {
     .location-item {
         width: 100%;
         margin-bottom: 30px;
+    }
+
+    .categories-item {
+        width: 48%;
     }
 }
 
@@ -705,10 +727,19 @@ button.btn-close {
     .mobile-adress-none {
         display: none;
     }
+
+    .categories-button {
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 500px) {
     .banner-quote-block {
         display: none;
+    }
+
+    .categories-item {
+        width: 100%;
     }
 }
